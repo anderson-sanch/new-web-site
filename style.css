@@ -1,8 +1,22 @@
-body{
-    background-color: royalblue;
+/* Tipos de selectores */
+
+/* Selector universal:se aplica estilos a todos los elementos del htlm suele utilizarse para setear los estilos de css como el margin o el padding ademas de darle un tamaño color tipo de fuente etc a todo el documento*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1{
-    color: red;
-    font-size: 50px;
-    text-decoration: underline;
-}
+
+/*
+################# Etiqueta ###################
+*/
+
+/*
+################# ID ###################
+*/
+
+/*
+################# CLASE ###################
+*/
+
+/*
+################# ATRIBUTOS ###################
+*/
