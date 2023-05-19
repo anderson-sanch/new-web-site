@@ -1,8 +1,17 @@
 /*################# Fuentes ###############*/
 
+/*################# Fuentes agregadas ###############*/
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');/*Mediante un import, tambien desde un link, pero este va en el head*/
+
+
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
 }
 h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
