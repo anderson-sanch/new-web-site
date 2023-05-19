@@ -1,6 +1,5 @@
 /* Tipos de selectores */
 
-/* Selector universal:se aplica estilos a todos los elementos del htlm suele utilizarse para setear los estilos de css como el margin o el padding ademas de darle un tamaño color tipo de fuente etc a todo el documento*/
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -8,6 +7,25 @@
 /*
 ################# Etiqueta ###################
 */
+/*Los selectores de etiqueta nos permite poder seleccionar todos los elementos de un documnetos html por su etiqueta, lo desfavorable de este selector es que si a 2 o mas etiquetas iguales le quieres dar un estilo distinto con este selector no podras, necesitaras la ayuda de otros selectores*/
+/*Tambien podemos ver los selectores compuestos, lo cual se basa en la combinacion de varios selectores, no importa el tipo, para poder darle mas especificidad a un solo elemento*/
+
+h1{
+    color: green;
+    background: red;
+    padding: 10px;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer a {
+    color: rgb(153, 43, 226);
+}
+
 
 /*
 ################# ID ###################
