@@ -1,0 +1,15 @@
+/*################# Fuentes ###############*/
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/*Tipo de letra*/
+    font-size: 50px;/*tamaño del texto*/
+    font-weight: 900; /*Grosor del texto*/
+    font-style: italic;/*Tipo de fuente*/
+}
