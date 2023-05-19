@@ -43,7 +43,6 @@ footer a {
 /*
 ################# CLASE ###################
 */
-/*las clases son un tipo de selector el cual nos da mas facilidad de poder trabajr con ellas, podemos poner mas de un nombre de selector por etiqueta class, cosa que con id no nos permite, la manera de llamarla es con un . antes de el nombre de la clase*/
 
 .parrafo{
     font-style: italic;
@@ -61,3 +60,29 @@ footer a {
 /*
 ################# ATRIBUTOS ###################
 */
+/*Los seletores de atributo son aquellos que nos permite llegar a los elementos de html mediante sus atributos ademas de de los class o id (los 2 ultimos) */
+
+.usuario form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+.usuario form *{
+    display: block;
+}
+
+input[type="text"]{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 500px;
+}
+input[type="submit"]{
+    color:black;
+    background-color: bisque;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
