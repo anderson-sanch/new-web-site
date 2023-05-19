@@ -28,7 +28,6 @@ footer a {
 /*
 ################# ID ###################
 */
-/*Los selectores de id son aquellos que en la etiqueta html se le da un id con un nombre, cabe destacar que solo puede haber 1 id por nombre, es decir, no se le puede dar el mismo nombre a 2 o mas id,tambien podemos ver el compartir estilos y la peculiaridad de que las css se leen de arriba hacia a abjo, es decir que los estilos que queden de ultimo sobre escribiran a los primeros, como es el caso del border*/
 
 #descripcion,
 #title{
@@ -44,6 +43,20 @@ footer a {
 /*
 ################# CLASE ###################
 */
+/*las clases son un tipo de selector el cual nos da mas facilidad de poder trabajr con ellas, podemos poner mas de un nombre de selector por etiqueta class, cosa que con id no nos permite, la manera de llamarla es con un . antes de el nombre de la clase*/
+
+.parrafo{
+    font-style: italic;
+    font-weight: bold;
+}
+.parrafo1{
+    background-color: aqua;
+    padding: 10px;
+}
+.parrafo3{
+    background-color: greenyellow;
+    padding: 15px;
+}
 
 /*
 ################# ATRIBUTOS ###################
