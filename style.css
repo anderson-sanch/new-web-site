@@ -60,7 +60,7 @@ footer a {
 /*
 ################# ATRIBUTOS ###################
 */
-/*Los seletores de atributo son aquellos que nos permite llegar a los elementos de html mediante sus atributos ademas de de los class o id (los 2 ultimos) */
+
 
 .usuario form{
     border: 5px solid blue;
@@ -85,4 +85,14 @@ input[type="submit"]{
     text-transform: uppercase;
     border: 1px solid black;
     cursor: pointer;
+}
+
+/*
+################# Hijos ###################
+*/
+/**/
+.menu > li > a{
+    font-size: 16px;
+    color: red;
+    text-decoration: none;
 }
