@@ -7,8 +7,6 @@
 /*
 ################# Etiqueta ###################
 */
-/*Los selectores de etiqueta nos permite poder seleccionar todos los elementos de un documnetos html por su etiqueta, lo desfavorable de este selector es que si a 2 o mas etiquetas iguales le quieres dar un estilo distinto con este selector no podras, necesitaras la ayuda de otros selectores*/
-/*Tambien podemos ver los selectores compuestos, lo cual se basa en la combinacion de varios selectores, no importa el tipo, para poder darle mas especificidad a un solo elemento*/
 
 h1{
     color: green;
@@ -30,6 +28,18 @@ footer a {
 /*
 ################# ID ###################
 */
+/*Los selectores de id son aquellos que en la etiqueta html se le da un id con un nombre, cabe destacar que solo puede haber 1 id por nombre, es decir, no se le puede dar el mismo nombre a 2 o mas id,tambien podemos ver el compartir estilos y la peculiaridad de que las css se leen de arriba hacia a abjo, es decir que los estilos que queden de ultimo sobre escribiran a los primeros, como es el caso del border*/
+
+#descripcion,
+#title{
+    border: 5px solid goldenrod;
+    padding: 15px;
+}
+#title{
+    color: aquamarine;
+    background: blueviolet;
+    border: 2px dashed white;
+}
 
 /*
 ################# CLASE ###################
