@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.caja1,
-.caja2{
+.caja{
     width: 250px;/*Anchura*/
     min-width: none;/*Ancho minimo de la caja*/
     max-width: 1250px;/*Ancho maximo de la caja*/
@@ -22,8 +21,7 @@
     padding-right: 15px;
     float: left;/*Nos permite mover los elemntos en el eje x, solo display block*/
 }
-.caja1 p,
-.caja2 p{
+.caja p{
     font-weight: bold;
     text-align: center;
     font-size: 20px;
@@ -33,4 +31,8 @@
 .clearfix{/*Nos permite limpiar los flotados*/
     float: none;
     clear: both;
+}
+.contenedor{
+    max-width:970px;
+    border: 1px solid black;
 }
