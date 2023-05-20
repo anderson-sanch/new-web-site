@@ -20,11 +20,17 @@
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
+    float: left;/*Nos permite mover los elemntos en el eje x, solo display block*/
 }
-p{
+.caja1 p,
+.caja2 p{
     font-weight: bold;
     text-align: center;
     font-size: 20px;
     text-transform: capitalize;
     line-height: 230px;
+}
+.clearfix{/*Nos permite limpiar los flotados*/
+    float: none;
+    clear: both;
 }
