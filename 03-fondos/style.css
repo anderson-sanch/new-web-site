@@ -1,19 +1,26 @@
 body{
     /*No hay diferencia como tal entre background y los demas, pero es mejor usarlo lo mas especifico posible*/
     background-color: green;
-    background-image: url('./patrones/pexels-designecologist-1239385.jpg');
-    background-repeat: no-repeat;/*Decidimos si repetir o no*/
-    background-size: cover;/*tamaño, px,%,palabras*/
-    background-position: center;/*posicion*/
-    background-attachment: fixed;/*Podemos fijar el fondo para que no se mueva */
+    
 }
 .caja{
     border: 5px solid black;
     padding: 10px;
     background-color: #0000ff;
     margin-bottom: 10px;
+    /*Modificar texto*/
+    text-align: center; /*Podemos darle la posicion en el eje x a todos los elementos en linea, img etc*/
+    /*line-height: 50px;/*Se ajusta el tamaño que abarca la linea, no se afecta el tamaño de la linea pero pueden colapsar */
+    text-transform:capitalize; /*uppercase: todas masyusculas/ lowercase:todas minusculas/ capitalize: todas las primeras letas mayusculas*/
+    text-decoration:line-through;/*overline: linea arriba de las letras/ underline: lineas debajo, none: sin linea*/
+    text-indent: 15px;/*Nos otorga una identacion por cada salto de parrafo con el tamaño elejido*/
+    word-spacing: 10px;/*Espacio entre palabras*/
+    letter-spacing: 10px;/*Espacio entre letras*/
+}
+p{
+    text-align: justify;/*Nos permite darle un tamaño completo, sin espacios por rellena, para entender, quitar esta propiedad*/
 }
 .caja2{
-    border: 2px dotted green;
+    border: 5px dotted grey;
     background-color: beige;
 }
