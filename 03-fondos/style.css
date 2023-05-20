@@ -1,0 +1,19 @@
+body{
+    /*No hay diferencia como tal entre background y los demas, pero es mejor usarlo lo mas especifico posible*/
+    background-color: green;
+    background-image: url('./patrones/pexels-designecologist-1239385.jpg');
+    background-repeat: no-repeat;/*Decidimos si repetir o no*/
+    background-size: cover;/*tamaño, px,%,palabras*/
+    background-position: center;/*posicion*/
+    background-attachment: fixed;/*Podemos fijar el fondo para que no se mueva */
+}
+.caja{
+    border: 5px solid black;
+    padding: 10px;
+    background-color: #0000ff;
+    margin-bottom: 10px;
+}
+.caja2{
+    border: 2px dotted green;
+    background-color: beige;
+}
