@@ -21,4 +21,13 @@ p{
     font-size: 50px;/*tamaño del texto*/
     font-weight: 900; /*Grosor del texto*/
     font-style: italic;/*Tipo de fuente*/
+    /*colores*/
+    /*colores del sistema*/
+    color: mediumpurple;
+    /*colores hexadecimales*/
+    color: #803A0A;
+    /*colores RGB*/
+    color: rgb(255, 255, 107);/*Podemos generar colores por medio de una web*/
+    /*colores RGBA*/
+    color: rgba(205, 15, 107, 1);/*Nos permite darle una transparencia median el ultimo atributo*/
 }
