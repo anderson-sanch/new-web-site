@@ -81,17 +81,20 @@ main{
     padding: 15px;
     color: #444;
     border-bottom: 1px solid gray;
+    text-shadow: -10px -10px 10px grey;/*Eje x/ eje y/ difuminado/ color*/
 }
 .contenido .caja{
     width: 40%;
     height: 250px;
-    background-color: red;
-    border: blue 5px solid;
-    color: white;
+    background-color: #ccc;
+    border: gey 1px solid;
+    color: #444;
     float: left;
     margin: 37px;
     text-align: center;
     line-height: 245px;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 10px black inset;/*Eje x/ eje y/ difumindao color/ sombra interna*/
 }
 /*footer*/
 footer{
