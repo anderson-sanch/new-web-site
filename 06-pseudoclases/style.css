@@ -1,0 +1,40 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li:first-child{/*Las pseudo clases el cual le puede dar una cierta especificidad a los elementos de html como se puede ver el primer hijo*/
+    color: aqua;
+    font-size: 20px;
+}
+ul li:nth-child(-n + 4){/*Las pseudo clases el cual le puede dar una cierta especificidad a los elementos de html como se puede ver el primer hijo*/
+    color: aqua;
+    font-size: 20px;
+}
+ul li:last-child{/*Las pseudo clases el cual le puede dar una cierta especificidad a los elementos de html como se puede ver el primer hijo*/
+    color: red;
+    font-size: 20px;
+}
+#miEnlace{
+    font-size: 30px;
+    text-decoration: none;
+    color: lightcoral;
+}
+#miEnlace:link{
+    color: red;
+}
+#miEnlace:visited{
+    color: olivedrab;
+}
+#miEnlace:hover{
+    color: aqua;
+}
+#miEnlace:active{
+    color: gold;
+}
+input{
+    margin-top: 10px;
+}
+input:focus{
+    border: none;
+    border: 5px dashed goldenrod;
+}
+/*Investigar mas pseudo clases*/
