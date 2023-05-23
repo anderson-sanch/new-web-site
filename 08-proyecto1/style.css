@@ -86,3 +86,35 @@ h1 a{
     background-color: var(--green-proyect);
     box-shadow: 0px 0px 15px green inset;
 }
+
+/*Menú desplegable*/
+
+.nav > ul > li > ul{
+    display: none;
+    position: relative;
+    width: 160px;
+    height: auto;
+    box-shadow: 0px 2px 5px gray;
+    z-index: 1;
+}
+.nav > ul > li:hover > ul{
+    display: block;
+}
+.nav > ul > li:hover > ul > li{
+    background-color: #f2f1f0;
+    border-bottom: 1px solid #d6d6d6d6;
+    padding: 8px;
+    line-height: 25px;
+    font-size: 13px;
+    transition: all 100ms;
+}
+.nav > ul > li:hover > ul > li a{
+    color: #666;
+}
+.nav > ul > li:hover > ul > li:hover{
+    box-shadow: 0px 0px 8px #a8a7a7 inset;
+    background-color: rgb(238, 237, 237);
+}
+.nav > ul > li:hover > ul > li:hover a{
+    color: var(--green-proyect);
+}
