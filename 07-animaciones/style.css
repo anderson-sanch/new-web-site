@@ -1,0 +1,18 @@
+.boton{
+    display: block;
+    padding: 20px;
+    background-color: green;
+    color: white;
+    width: 200px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #ccc;
+    transition: border 3s, background 0.5s;/*Las trnasiciones son los ca,bios de unas reglas css a otras, estan se pueden dar cuando el elemento tiene un pseudo selector, como en este ejemplo el hover, le debemos especificar si queremos que todas las reglas tengan el mismo tiempo con la palabra all y el tiempo, o separando por una como las reglas y dandoles un timepo*/
+}
+.boton:hover{
+    border-radius: 100px;
+    background-color: aqua;
+    border: 5px solid red;
+}
