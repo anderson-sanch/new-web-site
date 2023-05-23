@@ -69,12 +69,14 @@ main{
     float: left;
 }
 .lateral{
-    width: 29.4%;
-    height: 229px;
-    border: 1px solid firebrick;
     float: left;
+    width: 29%;
+    border: 1px solid firebrick;
     min-height: 500px;
+    max-height: 550px;
     text-align: center;
+    overflow:scroll;/*hidden:desaparece/scroll:Le da scroll del tamaño de la caja*/
+    /*Una manera de que no nos muestre la barra inferior es con overflow-y*/
 }
 .titulo_cajas{
     text-align: center;

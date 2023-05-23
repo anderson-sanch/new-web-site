@@ -18,7 +18,7 @@ body{
     letter-spacing: 10px;/*Espacio entre letras*/
 }
 p{
-    text-align: justify;/*Nos permite darle un tamaño completo, sin espacios por rellena, para entender, quitar esta propiedad*/
+    text-align: justify;/*Nos permite darle un tamaño completo, sin espacios por rellenar, para entender, quitar esta propiedad*/
 }
 .caja2{
     border: 5px dotted grey;
