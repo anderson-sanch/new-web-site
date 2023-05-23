@@ -198,10 +198,13 @@ a:visited{
     font-family: sans-serif;
 }
 .frase{
+    box-sizing: border-box;
+    padding: 10px;
     width: 200px;
     height: auto;
     font-size: 14px;
     padding: 5px 0px 5px 5px;
+    font-family: sans-serif;
 }
 .frase__title{
     text-align: center;
@@ -232,6 +235,12 @@ a:visited{
     border-left: none;
     border-right: none;
     margin-bottom: 15px;
+}
+.login .aula1{
+    color: #0c73f2;
+}
+.login .aula2{
+    color: #9b2422;
 }
 /*Formularios barra lateral*/
 
