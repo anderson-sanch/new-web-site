@@ -75,7 +75,7 @@ main{
     min-height: 500px;
     max-height: 550px;
     text-align: center;
-    overflow:scroll;/*hidden:desaparece/scroll:Le da scroll del tamaño de la caja*/
+    overflow-y:scroll;/*hidden:desaparece/scroll:Le da scroll del tamaño de la caja*/
     /*Una manera de que no nos muestre la barra inferior es con overflow-y*/
 }
 .titulo_cajas{
@@ -86,6 +86,7 @@ main{
     text-shadow: -10px -10px 10px grey;/*Eje x/ eje y/ difuminado/ color*/
 }
 .contenido .caja{
+    position: relative;/*Es la posicion que se le puede dar, para manipular un objeto sin que cambie su posicion inicial, se trabaja con las propiedades top,button,left,right y con valores en pixeles*/
     width: 40%;
     height: 250px;
     background-color: #ccc;
@@ -111,4 +112,20 @@ footer{
     height: 55px;
     line-height: 55px;
     background-color: #ccc;
+}
+.libre{
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    height: 50px;
+    width: 50px;
+    position: absolute;/*Esta posicion lo que hace es que al darle un valor, se lo aplicara desde el origen de se contenedor*/
+    top: 0px;
+    right: 50px;;
+}
+.libre2{
+    background-color: greenyellow;
+    top: 40px;
+    z-index: 1;/*Al momento de trabajar con cajas en posicion absoluta o relativa poder decidir que caja puede sobreponerse a las otras con z-imdex, y asi darles un ordern*/
 }
