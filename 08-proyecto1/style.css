@@ -188,7 +188,6 @@ a:visited{
 /*Aside*/
 .aside,
 .frase{
-    clear: both;
     width: 200px;
     float: left;
     margin: 30px;
@@ -198,6 +197,7 @@ a:visited{
     font-family: sans-serif;
 }
 .frase{
+    clear: both;
     box-sizing: border-box;
     padding: 10px;
     width: 200px;
@@ -268,4 +268,39 @@ margin-bottom: 10px;
 .aside li{
     margin: 8px 20px 5px 20px;
     list-style:square;
+}
+
+/*Main secciones*/
+.secciones{
+    float: right;
+    width: 75%;
+    font-family: sans-serif;
+    margin-right: 20px;
+}
+.secciones .title{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid  #ccc;
+}
+.secciones section{
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 4px #c9c9;
+    color: #333;
+    font-size: 16px;
+    overflow: hidden;
+}
+.secciones .frontend__article{
+    margin: 20px 10px 20px 10px;
+}
+.secciones .date{
+    color: gray;
+    font-size: 14px;
 }
